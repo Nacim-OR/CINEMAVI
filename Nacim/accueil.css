@@ -91,3 +91,11 @@
     height: 250px;
     width: 250px;
 }
+/* const scrollRight = useCallback((.film) => scrollToElement(nextElement), [
+  scrollToElement,
+  nextElement,
+])
+const scrollLeft = useCallback((.film) => scrollToElement(prevElement), [
+  scrollToElement,
+  prevElement,
+]) */
