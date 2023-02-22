@@ -1,0 +1,27 @@
+body{
+    background-image: url(image/body/272832-wallpaper-movie-theater-wallpaper-on-wallpaperp-movie.png) ;
+    display: flex;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    border: ;
+    display: flex;
+}
+
+.div1{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    /* align-items: center; */
+    animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-1750px);
+    }
+}
