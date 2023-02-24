@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+}
+
+.top10film{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top10series{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider{
+    height: 300px;
+    background-color: #ff888882;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 8px;
+}
+#slider2{
+    height: 300px;
+    background-color: #ff888882;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 8px;
+}
+
+.container{
+    width: 250px;
+    margin: auto;
+   
+   
+}
+.container2{
+    width: 250px;
+    margin: auto;
+}
+
+.subcontainer{
+    width: 85%;
+    margin: auto;
+    
+   
+}
+.subcontainer2{
+    width: 85%;
+    margin: auto;
+
+}
+
+.slide-img{
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 10ms;
+}
+.slide-img2{
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 10ms;
+}
+
+.slide-img:hover{
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+.slide-img2:hover{
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.slide-img a{
+    opacity: 0;
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color: white;
+}
+.slide-img2 a{
+    opacity: 0;
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.slide-img:hover a{
+    opacity: 1;
+    transform: scale(1);
+}
+.slide-img2:hover a{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.img-1{
+    background-image: url(image/1.jpg);
+   
+}
+.img-2{
+    background-image: url(image/2.jpg);
+}
+.img-3{
+    background-image: url(image/3.jpg);
+}
+.img-4{
+    background-image: url(image/4.jpg);
+}
+.img-5{
+    background-image: url(image/5.jpg);
+}
+.img-6{
+    background-image: url(image/6.jpg);
+}
+.img-7{
+    background-image: url(image/7.jpg);
+}
+.img-8{
+    background-image: url(image/8.jpg);
+}
+.img-9{
+    background-image: url(image/9.jpg);
+}
+.img-10{
+    background-image: url(image/10.jpg);
+}
+
+.img-11{
+    background-image: url(image/11.jpeg);
+   
+}
+.img-12{
+    background-image: url(image/12.jpeg);
+}
+.img-13{
+    background-image: url(image/13.jpeg);
+}
+.img-14{
+    background-image: url(image/14.jpeg);
+}
+.img-15{
+    background-image: url(image/15.jpeg);
+}
+.img-16{
+    background-image: url(image/16.jpg.jpeg);
+}
+.img-17{
+    background-image: url(image/18.jpg);
+}
+.img-18{
+    background-image: url(image/19.jpg);
+}
+.img-19{
+    background-image: url(image/20.jpg);
+}
+.img-20{
+    background-image: url(image/21.jpg);
+}
+
+
+@media(max-width:1600px){
+    .container{
+        width: 100%;
+    }
+}
+@media(max-width:1600px){
+    .container2{
+        width: 100%;
+    }
+}
+
+
+.tns-controls{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tns-controls button:first-child{
+    position: absolute;
+    top: 102px;
+    left: 3px;
+    background-color: rgba(196, 0, 0, 0.249);
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    font-size:xx-large;
+    font-weight:900;
+    border-radius: 50%;
+}
+.tns-controls button:first-child:hover{
+   border-radius: 50%;
+   background-color: rgb(196, 0, 0);
+
+}
+.tns-controls button:nth-child(2):hover{
+   border-radius: 50%;
+   background-color: rgb(196, 0, 0);
+
+}
+.tns-controls button:nth-child(2){
+    position: absolute;
+    top: 150px;
+    right: 3px;
+    background-color: rgba(196, 0, 0, 0.249);
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    font-size:xx-large;
+    font-weight:900;
+    border-radius: 50%;
+}
+
+
+#slider, #slider2{
+    position: relative;
+}
+
+.grandBlocnote
+{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-bottom: 0px;
+        margin: 0 auto 1em;
+       
+       
+}
+ 
+.note1{
+    float:left;
+    color: gold;
+    font-size: xx-large;
+
+}
+.note2{
+    float:left;
+    color: gold;
+    font-size: xx-large;
+}
+.note3{
+    float:left;
+    color: gold;
+    font-size: xx-large;
+}
+.note4{
+    float:left;
+    color: gold;
+    font-size: xx-large;
+}
+.note5{
+    float:left;
+    color:gold;
+    font-size: xx-large;
+}
+
+
+.grandBlocnote
+{
+    direction: rtl;
+}
+ 
+.grandBlocnote div
+{
+    float:none
+}
+
+.boavatar{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+    
+}
