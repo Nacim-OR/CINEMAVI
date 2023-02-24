@@ -80,3 +80,25 @@
   .open-button:hover {
     opacity: 1;
   }
+
+#genre{
+  background-color: #a40909;
+  height: 37.6px;
+  width: 200px;
+  /* box-shadow: 5px black; */
+  border: 0px solid white;
+  /* border-radius: 20px; */
+  /* display: flex;
+  justify-content: space-around;
+  flex-direction: row; */
+}
+
+.btnHead{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 10px;
+}
+body{
+  background-image: url(depositphotos_118592578-stock-photo-red-curtain-in-theater.webp);
+}
