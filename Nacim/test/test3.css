@@ -1,11 +1,10 @@
 body {
-	background: #e2eaef;
 	font-family: "Open Sans", sans-serif;
 	
 }
 h2 {
 	color: #000;
-	font-size: 26px;
+	font-size: 18px;
 	font-weight: 300;
 	text-align: center;
 	text-transform: uppercase;
@@ -24,15 +23,16 @@ h2::after {
 	right: 0;
 	bottom: -20px;
 }
+
 .carousel {
 	margin: 50px auto;
-	padding: 0 70px;
+	padding: 0 40px;
 }
 .carousel .item {
-	color: #747d89;
-	min-height: 325px;
+	color: black;
+	min-height: 250px;
 	text-align: center;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 .carousel .thumb-wrapper {
 	padding: 25px 15px;
@@ -131,7 +131,7 @@ h2::after {
 .carousel-indicators li, .carousel-indicators li.active {
 	width: 10px;
 	height: 10px;
-	margin: 4px;
+	/* margin: 4px; */
 	border-radius: 50%;
 	border: none;
 }
@@ -169,3 +169,51 @@ h2::after {
 	justify-content: center;
 }
 
+.img-box{
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 10ms;
+}
+.img-box:hover{
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+.img-box a{
+    opacity: 0;
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color: white;
+}
+.img-box:hover a{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.container-xl{
+	margin: auto;
+	height: 400px;
+}
+
+.carousel-indicators{
+	display: none;
+}
+
+.img-fluid{
+	height: 500px;
+
+}
+
+.footer{
+	background-color: white;
+	max-width: 100%;
+	height: 200px;
+	border-radius: 20px;
+}
