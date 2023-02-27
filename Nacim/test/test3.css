@@ -348,3 +348,29 @@ padding-left: 8px;
   flex-direction: row;
   margin-top: 10px;
 }
+
+.formulaire{
+	background-color: gray;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	height: 500px;
+	width: 650px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 500px;
+	justify-content: center;
+	padding-top: 20px;
+}
+.sep-inscription{
+	display: flex;
+	
+}
+
+#section3{
+	padding-left: 30px;
+}
+#section1{
+	padding-right: 20px;
+}
+.submit
