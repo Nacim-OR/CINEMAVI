@@ -1,7 +1,11 @@
-section{
+#casser2{ 
+    display: flex;
+    justify-content: center;}
+#casser{
+    width: 1000px;
     background-color: #ccc;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
 }
 
@@ -19,8 +23,9 @@ section{
 }
 
 .titre-cat{
-    width: 100%;
+    width: 1000px;
     display: flex;
+    padding-bottom: 50px;
     justify-content: center;
     background-color:#ccc;
 }
@@ -46,13 +51,14 @@ section{
     display: flex;
     justify-content: flex-start;
 }
-#bloc1{
-
+.img-bloc::after{
+    content: "DAVID";
+    text-align: center;
     border: 2px solid black;
     margin-left: 30%;
     width: 70%;
     min-height: 20px;
-    background: #9a9a9a;
+    background: #8e0279;
     }
 
 .titre_b {
@@ -85,7 +91,7 @@ section{
     height: 200px;
 }
 
-.tbr{
+.trb{
     width: 150px;
     height: 200px;
 }
@@ -153,4 +159,5 @@ section{
 .img-bloc{
     display: flex;
     flex-direction: column;
+    
 }
