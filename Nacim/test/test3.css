@@ -829,18 +829,20 @@ padding-left: 8px;
     margin-right: 0px;
 	color: white;
 	margin-top: 10px;
+    text-decoration: underline 2px rgb(137, 216, 255) ;
 }
 
-.description h5{
+.description2 h5{
 	color: white;
 	margin-top: 15px;
 	/* margin-bottom: -5px; */
 }
 
-.description p{
+.description2 p{
     font-size: 15px;
 	color: white;
 	text-align: justify;
+    font-style: italic;
 }
 
 /* .description{
@@ -1011,7 +1013,8 @@ padding-left: 8px;
 }
 .kev-p{
     margin-top: 20px;
-    color: white;
+    color: rgb(249, 126, 2);
+    font-weight: 900;
 }
 .aline{
     display: flex;
@@ -1020,7 +1023,8 @@ padding-left: 8px;
 }
 .aline-p{
     margin-top: 30px;
-    color: white;
+    color: rgb(7, 255, 3);
+    font-weight: 900;
 }
 .david{
     display: flex;
@@ -1029,6 +1033,7 @@ padding-left: 8px;
 .david-p{
     margin-top: 30px;
     color: white;
+    font-weight: 900;
 }
 .manu{
     display: flex;
@@ -1036,7 +1041,8 @@ padding-left: 8px;
 }
 .manu-p{
     margin-top: 40px;
-    color: white;
+    color: rgb(7, 255, 3);
+    font-weight: 900;
 }
 .nacim{
     display: flex;
@@ -1045,20 +1051,28 @@ padding-left: 8px;
 .nacim-p{
     margin-top: 35px;
     color: white;
+    font-weight: 900;
 }
 .miaola{
     display: flex;
     flex-direction: row;
+    
 }
 .miaola-p{
     margin-top: 35px;
-    color: white;
+    color: rgb(249, 126, 2);
     display: flex;
     flex-direction: row;
+    font-weight: 900;
 }
 #heart{
     width: 20px;
     border: 0px;
     color: white;
     background-color: white;
+}
+
+#amis{
+    margin-bottom: 15px;
+    margin-top: 50px;
 }
