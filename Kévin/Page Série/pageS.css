@@ -1,0 +1,155 @@
+#CINEMAVI{
+    position: relative;
+    color: white;
+    
+}
+#searchi{ 
+    margin-right: 10px;
+}
+body{
+   background-image: url(depositphotos_118592578-stock-photo-red-curtain-in-theater.webp);
+   background-size: cover;
+}
+#gdh{
+    display: flex;
+    justify-content: center;}
+#gdf{
+	margin-top: 20px;
+	margin-bottom: 20px;
+    display: flex;
+    background-color: rgb(66, 66, 66);
+    padding-top: 20px;
+    border: 2px solid;
+    height: 800px;
+	width: 1000px;
+    max-width: 1000px;
+    min-width: none;
+}
+#séries{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+
+}
+#gdp{
+    position: relative;
+    color: white;
+}
+.fa-star {
+	color: gray;
+	cursor: pointer;
+	padding: 0.0625rem;
+}
+.fa-star.gold {
+	color: #ffdc0f;
+}
+.rating {
+	display: flex;
+	flex-direction: column;
+	
+}
+.stars {
+		display: inline-flex;
+		
+		font-size: 3em;
+	}
+.stars:hover .fa-star {
+		color: #ffdc0f;
+	}
+	
+.stars .fa-star:hover ~ .fa-star {
+		color: gray;
+	}
+
+#starme{
+    position: absolute;
+    top: 47px;
+}
+#pdg{
+	display: flex;
+    justify-content: center;
+	
+}   
+#pdh{
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+    display: flex;
+    background-color: rgb(117, 117, 117);
+    padding-top: 20px;
+    border: 2px solid ;
+    height: 500px;
+	width: 1000px;
+    max-width: 1000px;
+    min-width: none;
+}
+
+#pfp{
+	display: flex;
+	flex-direction: column;
+	min-width: none;
+	max-width: 1000px;
+}
+#pfp div{
+	border-radius: 25px;
+	display: flex;
+	align-content: center;
+	margin: 10px;
+	width: 950px;
+	max-width: 950px;
+	min-width: none;
+	background-color: white;
+	height: 100px;
+	border: solid 2px black;
+}
+#pfp div img{
+	border: solid 2px;
+	border-radius: 25px;
+	margin: 10px;
+	width: 75px;
+	height: 75px;
+}
+#pfp div p{
+	margin-top: 20px;
+}
+#pfp textarea{
+	border-radius: 10px;
+	display: flex;
+	align-content: center;
+	margin: 10px;
+	width: 950px;
+	max-width: 950px;
+	min-width: none;
+	background-color: white;
+	height: 100px;
+	border: solid 2px black;
+}
+#pfp button{
+	background-color: rgb(131, 171, 131);
+	width: 50px;
+	border-radius: 10px;
+	height: 30px;
+	display: flex;
+	align-self: end;
+}
+#tags{
+	display: flex;
+	position: relative;
+	top: -5px;
+}
+#tags div{
+	color: black;
+	background-color: gold;
+	padding: 1px 5px 1px 5px;
+	margin-right: 10px;
+	border: solid 1px;
+	border-radius: 25px;
+}
+#trailer{
+	position: absolute;
+	top: 500px;
+	left: 500px;
+	
+}
