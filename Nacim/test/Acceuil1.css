@@ -699,12 +699,12 @@ padding-left: 8px;
 	margin-top: 84px;
 }
 
- /* #paolo{
+ #paolo{
     border: 1px solid white;
     clip-path: ellipse(33% 50% );
     height: 40px;
-}  */
- /* .paolo-text{
+}  
+  .paolo-text{
     color: black;
     text-align: right;
     display: flex;
@@ -713,13 +713,13 @@ padding-left: 8px;
     margin-left: 10px;
     margin-right: 10px;
 
-}  */
- /* .profil-paolo{
+}  
+ .profil-paolo{
     display: flex;
     flex-direction: row;
-} */
+} 
 
-/* .btn-paolo{
+ .btn-paolo{
      background-color: white;
     border: 2px solid black;
     border-radius: 20px; 
@@ -735,9 +735,9 @@ padding-left: 8px;
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
-}    */
+}    
 
-   /* @keyframes glowing {
+ @keyframes glowing {
     0% {
       background-color: white;
       box-shadow: 0 0 5px rgb(137, 216, 255);
@@ -753,8 +753,8 @@ padding-left: 8px;
       box-shadow: 0 0 5px rgb(137, 216, 255);
       
     }
-  }  */
-  /* .btn-paolo {
+  }  
+ .btn-paolo {
     animation: glowing 1300ms infinite;
   }
 
@@ -767,7 +767,7 @@ padding-left: 8px;
     width: 100px;
     height: 50px;
     margin-top: 25px;
-} */
+}
 /* .profil2 h4{
     color: white;
 } */

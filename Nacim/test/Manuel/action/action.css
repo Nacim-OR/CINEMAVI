@@ -1,0 +1,129 @@
+body{
+    background-image: url(all_page_body/depositphotos_118592578-stock-photo-red-curtain-in-theater.webp);
+    background-size: cover;
+}
+#action {
+    display: flex;
+    justify-content: center;
+}
+#action2{
+    border-radius: 25px;
+    border:black solid 1px;
+    background-color: rgb(75, 78, 78);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 1600px;
+	width: 1000px;
+    text-align: center;
+    color: white;
+}
+#film{
+    justify-content: space-between;  
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 10px 0px 10px;
+}
+#film img{
+    height: 250px;
+    width: 180px;
+    display: flex;
+    justify-content: end;
+}
+#left{
+   justify-content: end;
+   
+}
+#left div{
+    margin-top: 50px;}
+#right div{
+        margin-top: 50px;
+}
+#titre div{
+    text-align: start;
+    height: 250px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: px;
+    margin-right: 100px;
+}
+#titre h2{
+    position: absolute;
+}
+.fa-star {
+	color: gray;
+	cursor: pointer;
+	padding: 0.0625rem;
+}
+/* Si elle porte en plus la classe '.gold', elle sera en jaune. */
+.fa-star.gold {
+	color: #ffdc0f;
+}
+
+/* Le parent global '.rating' positionne le groupe des étoiles et le lien en colonne */
+.rating {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+	/* Le groupe '.stars' positionne les étoiles
+		 les unes à côté des autres sans espacements. */
+	.stars {
+		display: inline-flex;
+		justify-content: center;
+		font-size: 3em;
+	}
+
+	/**
+	 * Et là opère la magie du ':hover' !
+	 */
+
+	/* A l'état :hover sur le parent '.rating',
+		 on force TOUTES les étoiles à passer en jaune. */
+	.stars:hover .fa-star {
+		color: #ffdc0f;
+	}
+	/* Et si la souris survole une étoile en particulier,
+		 on sélectionne toutes les étoiles qui sont APRÈS celle-ci
+		 grâce à l'opérateur '~' et on les force en GRIS */
+	.stars .fa-star:hover ~ .fa-star {
+		color: gray;}        
+#point{
+    margin-top: 10px;
+    margin-left: -25px;
+}
+.footer{
+	background-color: white;
+	max-width: 100%;
+	height: 90px;
+	border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    
+}
+.copyt{
+    position: relative;
+    bottom: -25px;
+    left: -63px;
+	height: 20px;
+	margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta{
+padding-right: 10px;
+}
+.piaf{
+padding-left: 8px;
+}
+.frs{
+	height: 25px;
+}
+.rs{
+    margin-top: -50px;
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+}
