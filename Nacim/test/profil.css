@@ -5,6 +5,11 @@ body {
 	
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 h2 {
 	color: white;
 	font-size: 18px;
@@ -17,6 +22,23 @@ h2 {
 
 #sign-in{
 	background-color: white;
+}
+
+#rechercher{
+    background-color: white;
+    color: black;
+}
+
+#home{
+    color: white;
+}
+
+#catego{
+    color: white;
+}
+
+#marque{
+    color: white;
 }
 
 h2::after {
@@ -828,7 +850,7 @@ padding-left: 8px;
 }
 .titre_b2 h4{
     margin-right: 0px;
-	color: white;
+	color:  rgb(137, 216, 255);
 	margin-top: 10px;
     text-decoration: underline 2px rgb(137, 216, 255) ;
 }
@@ -925,7 +947,7 @@ padding-left: 8px;
     
 } */
 
-.img-bloc{
+.img-bloc1{
     display: flex;
     flex-direction: column;
     

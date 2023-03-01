@@ -1,0 +1,250 @@
+.formulaire{
+	background-color: gray;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	height: 500px;
+	width: 650px;
+	/* margin-top: 100px; */
+	margin-bottom: 100px;
+	margin-left: 430px;
+	justify-content: center;
+	padding-top: 20px;
+
+}
+.sep-inscription{
+	display: flex;
+	
+}
+
+#section3{
+	padding-left: 30px;
+}
+#section1{
+	padding-right: 20px;
+}
+.inscription-titre{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	/* border: 2px solid black; */
+	width: 650px;
+	margin-top: 100px;
+	background-color:gray ;
+	margin-left: 430px;
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	background-image: url(depositphotos_118592578-stock-photo-red-curtain-in-theater.webp);
+	background-size: cover;
+	
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#conec{
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 60px;
+}
+
+#sign-in{
+	background-color: white;
+}
+
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	border-radius: 1px;
+	background: rgb(196, 0, 0);
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+
+#searchi{ 
+    margin-right: 10px;
+}
+ /* Fixez le bouton sur le côté gauche de la page the button on the left side of the page */
+ .open-btn {
+    display: flex;
+    justify-content: flex-start;
+    
+  }
+  /* Stylez et fixez le bouton sur la page */
+  .open-button {
+    background-color: #1c87c9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    /* position: fixed; */
+  }
+  /* Positionnez la forme Popup */
+  .login-popup {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  /* Masquez la forme Popup */
+  .form-popup {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-45%, 5%);
+    border: 2px solid #666;
+    z-index: 9;
+  }
+  /* Styles pour le conteneur de la forme */
+  .form-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  /* Largeur complète pour les champs de saisie */
+  .form-container input[type="text"],
+  .form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #eee;
+  }
+  /* Quand les entrées sont concentrées, faites quelque chose */
+  .form-container input[type="text"]:focus,
+  .form-container input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  /* Stylez le bouton de connexion */
+  .form-container .btn {
+    background-color: #8ebf42;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+  /* Stylez le bouton pour annuler */
+  .form-container .cancel {
+    background-color: #cc0000;
+  }
+  /* Planez les effets pour les boutons */
+  .form-container .btn:hover,
+  .open-button:hover {
+    opacity: 1;
+  }
+
+  /* footer  */
+
+  .footer{
+	background-color: white;
+	max-width: 100%;
+	height: 90px;
+	border: 2px solid white;
+	
+}
+.frs{
+	height: 25px;
+}
+.rs{
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	margin-top: 10px;
+	
+}
+.copyt{
+	height: 20px;
+	margin-top: 20px;
+	margin-left: 743px;
+}
+
+.insta{
+padding-right: 10px;
+}
+.piaf{
+padding-left: 8px;
+}
