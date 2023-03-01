@@ -1,6 +1,8 @@
-body{
-    background-image: url(image/cat_sans_cat.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cat-sans-cat{
+    width: 1000px;
 }
