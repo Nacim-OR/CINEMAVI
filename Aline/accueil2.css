@@ -171,27 +171,3 @@ transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height
 -ms-user-select: none;
 user-select: none;
 }
-#img1{
-    width: 200px;
-    height: 200px;
-}
-#img2{
-    width: 200px;
-    height: 200px;
-}
-#img3{
-    width: 200px;
-    height: 200px;
-}
-#img4{
-    width: 200px;
-    height: 200px;
-}
-#img5{
-    width: 200px;
-    height: 200px;
-}
-#img6{
-    width: 200px;
-    height: 200px;
-}

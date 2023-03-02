@@ -681,26 +681,6 @@ padding-left: 8px;
 	color: white;
 }
 
-.rating{
-	margin-top: -10px;
-}
-
-.rating1{
-	margin-top: 48px;
-}
-.rating2{
-	margin-top: 72px;
-}
-.rating3{
-	margin-top: 72px;
-}
-.rating4{
-	margin-top: 48px;
-}
-.rating5{
-	margin-top: 72px;
-}
-
 #paolo{
     border: 1px solid white;
     clip-path: ellipse(33% 50% );
@@ -774,12 +754,13 @@ padding-left: 8px;
     color: white;
 }
 .desc .desc-p{
-    color: black;
+    color: white;
     text-align: center;
     background-color: white;
     width: 500px;
     height: 100px;
     margin-right: 10px;
+    margin-left: 2000px;
     padding-top: 12px;
 }
 
@@ -1098,4 +1079,14 @@ padding-left: 8px;
 #amis{
     margin-bottom: 15px;
     margin-top: 50px;
+    margin-left: 2000px;
+}
+
+#descript{
+    margin-left: 2000px;
+}
+
+#ajout1{
+    margin-left: 2000px;
+    color: white;
 }
